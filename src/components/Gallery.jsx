@@ -4,10 +4,10 @@ import AfterSelectHeader from "./AfterSelectHeader";
 import PreviewImage from "./PreviewImage";
 import AddImage from "./AddImage";
 const Gallery = () => {
-  // selected store
+  // selected store state
   const [selectedImages, setSelectedImages] = useState([]);
 
-  // image store you can select image 
+  // image state store you can select image 
   const [images, setImages] = useState(Images);
   const [draggedImage, setDraggedImage] = useState(null);
   const [dragedID, setDragedID] = useState(null);
